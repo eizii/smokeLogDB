@@ -1,0 +1,22 @@
+node_modules/
+**/node_modules/
+
+dist/
+**/dist/
+
+.env
+**/.env
+
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+
+# sqlite
+server/app.db
+server/app.db-journal
+*.db
+*.db-journal
+
+**/.vite/
+**/.cache/

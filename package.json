@@ -1,0 +1,11 @@
+{
+  "name": "smokelog-db",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently -n server,client -c auto \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "init-db": "npm run init-db --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
